@@ -1,0 +1,25 @@
+1675969522453	geckodriver	INFO	Listening on 127.0.0.1:60442
+1675969522967	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port"  ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/q7/n562bdl10nd3w595b5gytbhw0000gn/T/rust_mozprofileCiGGdn"
+*** You are running in headless mode.
+2023-02-09 19:05:23.360 plugin-container[85648:8655712] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-02-09 19:05:23.360 plugin-container[85648:8655712] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-02-09 19:05:23.364 plugin-container[85648:8655712] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-02-09 19:05:23.364 plugin-container[85648:8655712] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-02-09 19:05:23.365 plugin-container[85648:8655710] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-02-09 19:05:23.365 plugin-container[85648:8655710] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1675969523382	Marionette	INFO	Marionette enabled
+1675969523418	Marionette	INFO	Listening on port 60448
+WebDriver BiDi listening on ws://localhost:60443
+Read port: 60448
+1675969523868	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/q7/n562bdl10nd3w595b5gytbhw0000gn/T/rust_mozprofileCiGGdn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60443/devtools/browser/1b08546b-088f-4662-b9a8-6f2054f429d8
+JavaScript warning: https://admin.3esynaptiq.com/sq2020/static/js/6.32a35443.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://admin.3esynaptiq.com/sq2020/static/js/6.32a35443.chunk.js, line 1: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin.3esynaptiq.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin.3esynaptiq.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1675969560912	Marionette	INFO	Stopped listening on port 60448

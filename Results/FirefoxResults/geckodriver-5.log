@@ -1,0 +1,36 @@
+1675969638149	geckodriver	INFO	Listening on 127.0.0.1:60661
+1675969638666	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port"  ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/q7/n562bdl10nd3w595b5gytbhw0000gn/T/rust_mozprofilepU6dab"
+*** You are running in headless mode.
+2023-02-09 19:07:19.056 plugin-container[85743:8659092] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-02-09 19:07:19.057 plugin-container[85743:8659092] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-02-09 19:07:19.062 plugin-container[85743:8659092] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-02-09 19:07:19.062 plugin-container[85743:8659092] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-02-09 19:07:19.063 plugin-container[85743:8659097] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-02-09 19:07:19.063 plugin-container[85743:8659097] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1675969639076	Marionette	INFO	Marionette enabled
+1675969639170	Marionette	INFO	Listening on port 60667
+WebDriver BiDi listening on ws://localhost:60662
+Read port: 60667
+1675969639419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/q7/n562bdl10nd3w595b5gytbhw0000gn/T/rust_mozprofilepU6dab/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60662/devtools/browser/fa054eb0-253d-4981-8057-92bf4569079e
+JavaScript warning: https://admin.3esynaptiq.com/sq2020/static/js/6.32a35443.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://admin.3esynaptiq.com/sq2020/static/js/6.32a35443.chunk.js, line 1: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin.3esynaptiq.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin.3esynaptiq.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1675969657590	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1675969660621	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1675969669048	Marionette	INFO	Stopped listening on port 60667
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: IOUtils: Shutting down and refusing additional I/O tasks

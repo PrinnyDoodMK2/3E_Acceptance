@@ -1,0 +1,24 @@
+1675969563641	geckodriver	INFO	Listening on 127.0.0.1:60490
+1675969564153	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port"  ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/q7/n562bdl10nd3w595b5gytbhw0000gn/T/rust_mozprofileBfWgvp"
+*** You are running in headless mode.
+2023-02-09 19:06:05.712 plugin-container[85703:8657352] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-02-09 19:06:05.713 plugin-container[85703:8657352] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-02-09 19:06:05.763 plugin-container[85703:8657352] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-02-09 19:06:05.765 plugin-container[85703:8657352] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-02-09 19:06:05.766 plugin-container[85703:8657356] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-02-09 19:06:05.766 plugin-container[85703:8657356] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1675969565831	Marionette	INFO	Marionette enabled
+1675969566010	Marionette	INFO	Listening on port 60512
+WebDriver BiDi listening on ws://localhost:60491
+Read port: 60512
+Read port: 60512
+1675969567477	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/q7/n562bdl10nd3w595b5gytbhw0000gn/T/rust_mozprofileBfWgvp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60491/devtools/browser/fe1e14ee-ba09-4991-92cd-274f387f2910
+JavaScript warning: https://admin.3esynaptiq.com/sq2020/static/js/6.32a35443.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://admin.3esynaptiq.com/sq2020/static/js/6.32a35443.chunk.js, line 1: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin.3esynaptiq.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin.3esynaptiq.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1675969597230	Marionette	INFO	Stopped listening on port 60512
